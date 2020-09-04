@@ -22,12 +22,3 @@ target 'AwesomeProject' do
     flipper_post_install(installer)
   end
 end
-
-target 'AwesomeProject-tvOS' do
-  # Pods for AwesomeProject-tvOS
-
-  target 'AwesomeProject-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-end
